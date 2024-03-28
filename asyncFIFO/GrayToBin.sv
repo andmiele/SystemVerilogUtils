@@ -26,6 +26,6 @@ module GrayToBin
 always_comb
 begin
     for(int i = 0; i < N; i++)
-        b[i] = b[i] ^ (g >> i);
+        b[i] = ^ (g >> i);
 end
 endmodule
